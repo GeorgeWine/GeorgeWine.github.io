@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+         <META NAME="robots" CONTENT="noindex,nofollow">
+         <title>Wine Education</title>
+           
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+         
+         <link rel="stylesheet" type="text/css" href="main.css">
+         <link href='https://fonts.googleapis.com/css?family=Quicksand:300,400,500' rel='stylesheet' type='text/css'>
+
+         <link rel="shortcut icon" href="favicon.ico" sizes="any">
+         <link rel="icon" href="favicon.svg" type="image/svg+xml">    
+         <link rel="mask-icon" href="safari-pinned-tab.svg">
+         <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+</head>
+    
+<script>               
+</script>
+        
+<body>   
+    <div style="height:100vh;" id="top">
+
+          <div style="padding-top:10vh; margin-bottom:1rem;">
+              <img  src="images/first.svg" class="logo fadeIn0" style="margin-bottom:.5rem;">
+              <img  src="images/last.svg" class="logo fadeIn0" style="width:60%; max-width:21rem;">
+          </div>
+          
+          <div class="fadeIn1" id="subheader">WINE EDUCATION</div>
+        
+          <div style="padding-top:40vh;">
+              <img src="images/chevron.svg" id="chevron" class="fadeIn2">
+          </div>
+                 
+    </div>
+
+<!-- COPY --------------------------------------------------------------------------------------------------------------->
+        <div style="margin-bottom:4rem;" class="paragraph">
+            Getting into wine is daunting, but after my in-home wine course, you'll confidently browse any wine 
+            list, feel at home in any wine shop, pair wine with food, and have a ton of tips and tricks up your sleeve.
+                   
+            <br><br>
+                   
+            The best part is that it all happens in your home with those you want there with 
+            you. Lounge on the patio, stand around the kitchen island, or serve a meal. I'll adjust to you, your guests, and 
+            the atmosphere to provide a truly bespoke experience.
+                   
+            <br><br>
+                   
+            If you'd like to have wine for the event, I can help with that, too. Simply choose one of my wine lists when you submit your 
+            reservation request, tell me the number of bottles you'd like, and give me a budget. I'll work with your favorite wine shop 
+            and have wine set aside for you to pick up and pay for.
+                   
+            <br><br>
+                   
+            Cost: $50 per person
+
+        </div>
+         
+
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+<!-- WINE LISTS MODAL --------------------------------------------------------------------------------------------------------------->
+            <div style="margin-bottom:1.5rem;">
+                <label for="WineLists">
+                   <p class="buttons grow" onclick="document.body.style.overflow = 'hidden'; document.body.classList.add('noScroll');">Wine Lists</p>
+                 </label>
+                   <input type="radio" name="WineLists" value="open" id="WineLists" class="modal-radio"/>
+
+             <div id="wineListModal" class="modal" loading="lazy">
+                <label class="overlay">
+                    <input type="radio" name="WineLists" value="close" class="modal-radio" onclick="document.body.style.overflow = 'auto'; document.body.classList.remove('noScroll');"/>
+                  </label>    
+
+                <div class="content" loading="lazy">
+                 
+                  <div class="modalParagraph" style="padding-left:1rem; padding-right:.75rem;">
+                    <p class="title">WINE LISTS</p>
+                   <b style="font-size:1.3rem;">WILD CARD</b><br>
+                       <div style="font-size:1.1rem; margin-bottom:.5rem;">You let me pick the wines.<br></div>
+                   <b style="font-size:1.3rem;">CHEF'S KISS</b><br>
+                       <div style="font-size:1.1rem; margin-bottom:.5rem;">Name a cuisine, and I'll pick wines that pair.<br></div>
+                   <b style="font-size:1.3rem;">THE GAMUT</b><br>
+                       <div style="font-size:1.1rem; margin-bottom:.5rem;">A little bit of everything. Great for beginners.<br></div>
+                   <b style="font-size:1.3rem;">ALL BUSINESS</b><br>
+                       <div style="font-size:1.1rem; margin-bottom:.5rem;">Wines often ordered at steak and seafood restaurants while entertaining clients.<br></div>
+                   <b style="font-size:1.3rem;">AU NATURALE</b><br>
+                       <div style="font-size:1.1rem; margin-bottom:.5rem;">Wines made in unusual styles. They can be interesting, weird, and even a little funky.<br></div>
+                   <b style="font-size:1.3rem;">SHOWDOWN</b><br>
+                       <div style="font-size:1.1rem; margin-bottom:1.5rem;">Wines from two different countries made from the same grapes.</div>
+                  </div>
+                  <label><img class="close" src="images/close.svg" onclick="document.body.style.overflow = 'auto'; document.body.classList.remove('noScroll');"><input type="radio" name="WineLists" value="close" class="modal-radio"/></label>
+                </div>  
+                
+              </div>
+            </div>
+
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+<!-- RESERVATIONS MODAL --------------------------------------------------------------------------------------------------------------->
+        <div style="margin-bottom:4rem;">
+            <label for="Reservations">
+                   <p class="buttons grow" onclick="document.body.style.overflow = 'hidden';  document.body.classList.add('noScroll');">Reservations</p>
+               </label>
+            <input type="radio" name="Reservations" value="open" id="Reservations" class="modal-radio"/>
+
+
+            <div id="reservationsModal" class="modal" loading="lazy">
+                    <label class="overlay">
+                      <input type="radio" name="Reservations" value="close" class="modal-radio" onclick="document.body.style.overflow = 'auto';  document.body.classList.remove('noScroll');"/>
+                    </label>
+
+ 
+              <div class="content" loading="lazy">
+                  <div class="modalParagraph" style="padding-left:.5rem; padding-right:.5rem;">
+                        <p class="title">RESERVATIONS</p>
+                        <form id="reservations" action="https://getform.io/f/0f7eb169-4025-4982-bcd9-870d3556430c" method="post" style="margin:0; padding:0; text-align:center;">
+              
+                             
+                          <input type="text" id="name" name="Name" placeholder="Name" class="formQ" required>            
+                          <input type="email" id="email" name="Email" placeholder="Email" class="formQ" required>
+                          <input type="tel" id="phone" name="Phone" placeholder="Phone" class="formQ" required>
+                          <input id="address" name="Address" placeholder="Street Address" class="formQ" style="margin-bottom:.4rem;" required>
+
+                           <div class="flex-container" style="margin-bottom:2rem;">
+                                    <div style="width:64%;"><input id="city" name="City" placeholder="City" class="formInline"  style="text-align:left; padding-left:1rem;" required></div>  
+                                    <div style="width:3%;"></div>
+                                    <div style="width:33%;"><input type="num" id="zip" name="ZIP" placeholder="Zip" maxlength="5" class="formInline" required></div>
+                           </div>
+
+                           <div class="flex-container" style="margin-bottom:.5rem;">
+                            <div style="width:55%;"><input type="date" id="date" name="Date" value="2023-01-01" class="formInline" required></div>
+                            <div style="width:3%;"></div>
+                            <div style="width:42%;"><input type="time" id="time" name="Time" value="19:00" class="formInline" required></div> 
+                            </div>
+                     
+                  <select name="Attendees" id="attendance" class="formQ" style="margin-bottom:.6rem;" required>
+                      <option value="" disabled selected>Number of Attendees</option>
+                      <option value="4 or fewer">four or fewer - $200</option>
+                      <option value="5">five - $250</option>
+                      <option value="6">six - $300</option>
+                      <option value="7">seven - $350</option>
+                      <option value="8">eight - $400</option>
+                      <option value="9">nine - $450</option>
+                      <option value="10">ten - $500</option>
+                      <option value="11+">eleven or more - TBD</option>
+                    </select>
+                             
+                          <select name="List" id="wineList" class="formQ" style="margin-bottom:.4rem;" required onchange="
+                            if (this.value!=='N/A'){
+                              this.form['numBottles'].disabled=false;
+                              this.form['budget'].disabled=false;
+                              this.form['numBottles'].classList.replace('m-fadeOut', 'm-fadeIn');
+                              this.form['budget'].classList.replace('m-fadeOut', 'm-fadeIn');
+                            }
+                              else{
+                              this.form['numBottles'].disabled=true; 
+                              this.form['budget'].disabled=true;
+                              this.form['numBottles'].value=''; 
+                              this.form['budget'].value='';
+                              this.form['numBottles'].classList.replace('m-fadeIn', 'm-fadeOut');
+                              this.form['budget'].classList.replace('m-fadeIn', 'm-fadeOut');
+                            };">
+
+                              <option value="" disabled selected>Wine List</option>
+                              <option value="Wild Card">Wild Card</option>
+                              <option value="Chef's Kiss">Chef's Kiss</option>
+                              <option value="The Gamut">The Gamut</option>
+                              <option value="All Business">All Business</option>
+                              <option value="Au Naturale">Au Naturale</option>
+                              <option value="Showdown">Showdown</option>
+                              <option value="N/A">None</option>
+                            </select>
+
+                             <div class="flex-container" style="margin-bottom:2rem;">
+                              <select style="width:48%; background:none; text-align-last:center; padding:.2rem 0;" name="Bottles" id="numBottles" class="m-fadeIn formInline">
+                              <option value=""disabled selected># bottles</option>
+                              <option value="two">two</option>
+                              <option value="three">three</option>
+                              <option value="four">four</option>
+                              <option value="five">five</option>
+                              <option value="six">six</option>
+                              </select>
+                                      
+                              <select style="width:49%; background:none; text-align-last:center; padding:.2rem 0;" name="Budget" id="budget" class="m-fadeIn formInline">
+                              <option value="" disabled selected>$ per bottle</option>
+                              <option value="25 or less">$25 or less</option>
+                              <option value="25 - 35">$25 - $35</option>
+                              <option value="35 - 50">$35 - $50</option>
+                              <option value="50 - 75">$50 - $75</option>
+                              <option value="75 - 100">$75 - $100</option>
+                              </select>
+                             </div>
+                            
+                             <textarea id="details" name="Details" class="formQ" style="margin-bottom:1rem; resize:none;" rows="8" placeholder="Other Information"></textarea>
+                            
+                             <input type="submit" value="Request" class="buttons submitButton grow" onclick="document.body.style.overflow = 'auto';">
+                      </form>
+
+                   </div>
+                   <label><img class="close" src="images/close.svg" onclick="document.body.style.overflow = 'auto'; document.body.classList.remove('noScroll');"><input type="radio" name="Reservations" value="close" class="modal-radio"/></label>
+                </div>
+              </div>
+          </div> 
+
+        
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+<!-- PHOTO AND BIO --------------------------------------------------------------------------------------------------------------->
+       <div style="margin-bottom:2rem;">
+          <img src="images/portrait.png" style="display:block; max-width: min(65vw, 20rem); margin-top:0; margin-left:auto; margin-right:auto; margin-bottom:2rem;">
+          
+          <p style="text-align:center; margin-top:0px; margin-bottom:.5rem; font-variant:small-caps; font-size:2rem; letter-spacing:.1rem; font-weight:400;">About</p>
+          <p style="margin-top:0px; margin-bottom:2rem;" class="paragraph">When I lived in France, I got to learn about wine while sitting around my dining room table. It was an experience that marked me deeply, one I hope to share with you. As such, I am committed to fostering a safe and empowering learning environment, free from pretension and gate-keeping. Wine is too special for anything less.</p>
+                
+          <p style="text-align:center; font-size:1.5rem; font-weight:400; font-size:2rem; font-variant:small-caps; letter-spacing:.1rem; margin-bottom:.5rem;" class="paragraph">Certifications</p>
+          <div style="margin-bottom:.5rem;"><p class="paragraph">&emsp;• Court of Master Sommeliers<br>&emsp;&emsp;&emsp;Introductory Course</p></div>
+          <div style="margin-bottom:.5rem;"><p class="paragraph">&emsp;• WSET Award in Wines<br>&emsp;&emsp;&emsp;Level 3, with distinction</p></div>
+                
+                <a href="#top"><img src="images/toTop.svg" id="endLogo" class="grow"></a>
+         </div>
+</body>
+</html>

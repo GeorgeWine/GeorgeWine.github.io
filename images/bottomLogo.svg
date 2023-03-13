@@ -1,0 +1,12 @@
+<svg width="106" height="106" viewBox="0 0 106 106" fill="none" stroke="#2e0308" stroke-linecap="round" stroke-width="3" xmlns="http://www.w3.org/2000/svg">
+
+  <circle cx="53" cy="53" r="50" pathLength="100" stroke-dasharray="90 100"/>
+  <line x1="63" y1="53" x2="103" y2="53"/>
+  
+<!--
+  <line x1="48" y1="28" x2="48" y2="78"/>
+  <circle cx="98" cy="78" r="50" pathLength="100" stroke-dasharray="25 100" transform="rotate(90 98 78)"/>
+  <line x1="98" y1="128" x2="128" y2="128"/>
+-->
+  
+</svg>

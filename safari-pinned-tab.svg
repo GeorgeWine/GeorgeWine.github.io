@@ -1,0 +1,11 @@
+<svg width="188" height="188" viewBox="0 0 188 188" fill="none" stroke="#2e0308" stroke-linecap="round" stroke-width="10" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Background -->
+
+  <rect x="4" y="4" width="180" height="180" rx="25" fill="#E9DCC9" stroke="#E9DCC9" />
+
+<!-- G -->
+  <circle cx="94" cy="94" r="50" pathLength="100" stroke-dasharray="90 100"/>
+  <line x1="104" y1="94" x2="144" y2="94"/>
+
+</svg>

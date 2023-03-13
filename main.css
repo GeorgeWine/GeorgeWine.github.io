@@ -1,0 +1,436 @@
+/* ------------------------------------------------------------------------------------ */
+/* --------------------------------- Background --------------------------------------- */
+/* ------------------------------------------------------------------------------------ */
+
+body {
+  background-color:#E9DCC9;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height:100%;
+  overflow:auto;
+  -webkit-overflow-scrolling: touch;
+  }
+
+.noScroll{
+   touch-action: none;
+   -ms-touch-action: none;
+}
+
+/* ------------------------------------------------------------------------------------ */
+/* -------------------------------- Universal Defaults -------------------------------- */
+/* ------------------------------------------------------------------------------------ */
+
+* {
+  scroll-behavior: smooth;
+  font-family: Quicksand;
+  color:#2e0308;
+  
+  cursor:crosshair;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+*:focus {
+  outline: none;
+}
+
+textarea, select, input, button { 
+  outline: none;
+}
+
+*::-webkit-scrollbar {
+  display:none;
+}
+
+b {
+  font-weight:500;
+}
+
+div {
+  margin:0 auto;
+  padding:0;
+}
+
+textarea, input {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* ------------------------------------------------------------------------------------ */
+/* ------------------------------------ Animations ------------------------------------ */
+/* ------------------------------------------------------------------------------------ */
+
+.fadeIn0 {
+  opacity:0;
+
+  -webkit-animation: fadeIn ease-in 3000ms forwards;
+  animation: fadeIn ease-in 3000ms forwards;
+
+  -webkit-animation-delay: 250ms;
+  animation-delay: 250ms;
+}
+
+.fadeIn1 {
+  opacity:0;
+
+  -webkit-animation: fadeIn ease-in 1500ms forwards;
+  animation: fadeIn ease-in 1500ms forwards;
+
+  -webkit-animation-delay: 2050ms;
+  animation-delay: 2050ms;
+}
+
+.fadeIn2 {
+  opacity:0;
+
+  -webkit-animation: fadeInDown 2250ms ease-out forwards;
+  animation: fadeInDown 2250ms ease-out forwards;
+
+  -webkit-animation-delay: 4025ms;
+  animation-delay: 4025ms;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-35vh);
+  }
+  100% {
+    opacity: 1;
+    transform:translateY(0);
+  }
+}
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform:translateY(-35vh);
+  }
+  100% {
+    opacity: 1;
+    transform:translateY(0);
+  }
+}
+
+.m-fadeOut {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility ease-out 1000ms, opacity 1000ms;
+}
+.m-fadeIn {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility ease-out 1000ms, opacity 1000ms;
+}
+
+.grow {
+  transition: all .3s ease-in-out; 
+}
+.grow:hover { 
+  color: darkslategrey;
+  transform: scale(1.2);
+}  
+
+/* ------------------------------------------------------------------------------------ */
+/* ------------------------------------- Elements ------------------------------------- */
+/* ------------------------------------------------------------------------------------ */
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  width:70%;
+  max-width:24.5rem;
+}
+
+#subheader {
+  padding:0;
+  margin: 0;
+  
+  font-size: 1rem;
+  font-weight: 300;
+  text-align:center;
+  letter-spacing: .4rem;
+}
+
+#chevron {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  width:3rem;
+  height:3rem;
+}
+
+.paragraph {
+  margin: 0 auto;
+  text-align:justify;
+  
+  font-size:1.2rem;
+  font-weight:400;
+  line-height:1.2;
+
+  width:min(90%, 30rem);
+  
+  overflow:hidden;
+}
+
+.buttons {
+  margin: 0 auto;
+  
+  width:fit-content;
+  height:fit-content;
+
+  background-color: transparent;
+
+  font-size:2rem;
+  font-weight:400;
+  font-variant:small-caps;
+  letter-spacing:.1rem;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#endLogo { 
+  margin-left:auto; 
+  margin-right:auto;
+  margin-top:3rem;
+  margin-bottom:1rem;
+  
+  display:block;
+  
+  height:5rem; 
+  width:5rem;
+}
+
+/* -------------------------------------------------------------------------------------- */
+/* ---------------------------------- Modal --------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+
+/* Modal Containter including overlay and Modal */
+.modal {  
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+
+  overflow:hidden;
+ 
+  transform:translate(100%, 0);
+  transition: transform .75s;
+  
+  z-index:99;
+}
+
+.modal-radio {
+    visibility: hidden;
+    opacity: 0;
+    margin-bottom:0;
+    position:absolute;
+}
+
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    top: 0;
+    left: 0;
+
+    overflow:hidden;
+    border-radius:0px;
+}
+
+.content {
+    overflow:visible;
+    margin:0;
+    padding:0;
+    border-style:solid;
+    border-width:6px;
+    border-color:#2e0308;
+    position:relative;
+    float:left;
+    left:50%;
+    top:25%;
+    transform: translate(-50%, -25%);
+  
+    width:min(80vw, 30rem);
+    max-height:80vh;
+
+    border-radius:15px 15px 0 15px;
+    background: #E9DCC9;
+}
+
+.title {
+  margin-top:1.5rem;
+  margin-bottom:1rem;
+
+  font-size: 1.8rem;
+  font-weight:500;
+  text-align: center;
+  letter-spacing:.1rem;
+}
+
+.modalParagraph {
+  position:relative;
+  overscroll-behavior: contain;
+
+  margin:0;
+  padding:0;
+  
+  width:auto;
+  max-height:80vh;
+  
+  font-size:1.1rem;
+  font-weight:400;
+  
+  overflow-y:auto;
+  overflow-x:hidden;
+}
+
+.submitButton {
+  margin-bottom:1.5rem;
+  display:block;
+  width:fit-content;
+  border:transparent;
+}
+
+.close {
+  position:absolute;
+  right:-18px;
+  bottom:-18px;
+  
+  width:30px;
+  height:30px;
+
+  z-index:100;
+  -webkit-transform: translate3d(0,0,1px);
+  transform: translate3d(0,0,1px);
+}
+
+#Reservations:checked + .modal {
+    transform:translate(0,0);
+}
+
+#WineLists:checked + .modal {
+    transform:translate(0,0);
+}
+
+/* -------------------------------------------------------------------------------------- */
+/* ------------------------------ Reservation Form Elements ----------------------------- */
+/* -------------------------------------------------------------------------------------- */
+
+input::placeholder {
+    opacity: .6;
+    color: darkslategrey;
+}
+
+textarea::placeholder{
+    opacity: .6;
+    color: darkslategrey;
+}
+
+select {
+  -webkit-appearance:none;
+  background-color:#E9DCC9;
+  box-shadow:none !important;
+  box-sizing: border-box;
+  
+  background: url("images/dropdownarrow.svg") no-repeat right 1rem center;
+  background-size: .6rem .3rem;
+}
+
+.formQ {
+  display:block;
+  margin: 0 auto .5rem auto;
+  
+  width: 95%;
+  height: auto;
+
+  border-radius:5px;
+  border:.1rem solid;
+
+  padding:.3rem 0 .3rem 1rem;
+  
+  border-color:#2e0308;
+  font-size:1.2rem;
+  font-variant:small-caps;
+  color:#2e0308;
+  background-color:#E9DCC9;
+}
+
+input[type="date"]{
+  font-size:1.2rem; 
+  margin:0 0 1px 0;
+  padding:.3rem 0 .3rem 1rem;
+}
+input[type="time"]{
+  font-size:1.2rem; 
+  margin:0 0 1px 0;
+  padding:.3rem 0 .3rem 1rem;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+  display:none;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+input::-webkit-date-and-time-value{
+  text-align:left;
+}
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.flex-container{
+  margin: 0 auto .5rem auto;
+  
+  height:auto;
+  width:95%;
+  
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+
+.formInline {
+  width:100%;
+  padding:.3rem 0;
+
+  background-color:transparent;
+  background-repeat:no-repeat;
+  
+  font-variant:small-caps;
+  text-align:center;
+
+  border:.1rem solid;
+  border-radius:5px;
+  font-size:1.2rem;
+  color:#2e0308;
+}
