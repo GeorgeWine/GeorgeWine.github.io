@@ -85,8 +85,8 @@ textarea, input {
 .fadeIn2 {
   opacity:0;
 
-  -webkit-animation: fadeInDown 2250ms ease-out forwards;
-  animation: fadeInDown 2250ms ease-out forwards;
+  -webkit-animation: fadeInDown 1500ms ease-out forwards;
+  animation: fadeInDown 1500ms ease-out forwards;
 
   -webkit-animation-delay: 4025ms;
   animation-delay: 4025ms;
@@ -113,7 +113,7 @@ textarea, input {
 @keyframes fadeInDown {
   0% {
     opacity: 0;
-    transform: translateY(-35vh);
+    transform: translateY(-25vh);
   }
   100% {
     opacity: 1;
@@ -123,7 +123,7 @@ textarea, input {
 @-webkit-keyframes fadeInDown {
   0% {
     opacity: 0;
-    transform:translateY(-35vh);
+    transform:translateY(-25vh);
   }
   100% {
     opacity: 1;
