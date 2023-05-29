@@ -211,21 +211,7 @@ textarea, input {
 
   overflow:hidden;
   
-  z-index:98;
-}
-
-.overlay {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0);
-    top: 0;
-    left: 0;
-
-    overflow:hidden;
-    border-radius:0px;
-  
-    z-index:98;
+  z-index:99;
 }
 
 .content {
@@ -233,9 +219,12 @@ textarea, input {
     margin:0;
     padding:0;
   
+  /*
     border-style:solid;
     border-width:5px;
     border-color:#2e0308;
+  */
+    border:none;
   
     position:relative;
     float:left;
@@ -245,16 +234,15 @@ textarea, input {
     transform: translate(-50%, -35%);
   
     width:min(80vw, 30rem);
-    max-height:90vh;
+    max-height:95vh;
 
     border-radius:15px 15px 0 15px;
     background: #E9DCC9;
   
-    z-index:99;
 }
 
 .title {
-  margin-top:1.5rem;
+  margin-top:0;
   margin-bottom:1rem;
 
   font-size: 1.8rem;
@@ -271,7 +259,7 @@ textarea, input {
   padding:0;
   
   width:auto;
-  max-height:90vh;
+  max-height:95vh;
   
   font-size:1.1rem;
   font-weight:400;
