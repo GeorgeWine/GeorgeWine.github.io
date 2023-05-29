@@ -84,8 +84,8 @@ textarea, input {
 .fadeIn2 {
   opacity:0;
 
-  -webkit-animation: fadeIn 2000ms ease-in forwards;
-  animation: fadeIn 2000ms ease-in forwards;
+  -webkit-animation: fadeIn 3000ms ease-in forwards;
+  animation: fadeIn 3000ms ease-in forwards;
 
   -webkit-animation-delay: 4025ms;
   animation-delay: 4025ms;
@@ -203,7 +203,7 @@ textarea, input {
   background-color: transparent;
 
   font-size:2.5rem;
-  font-weight:400;
+  font-weight:300;
   font-variant:small-caps;
   letter-spacing:.1rem;
   text-align: center;
