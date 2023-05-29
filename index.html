@@ -22,8 +22,7 @@
 			document.body.style.overflow = 'hidden';
 			document.body.classList.add('noScroll');
 			document.getElementById('top').classList.replace('m-fadeIn', 'm-fadeOut');
-			document.getElementById('reservationsButton').classList.replace('m-fadeIn', 'm-fadeOut');
-			document.getElementById('about').classList.replace('m-fadeIn', 'm-fadeOut');
+			document.getElementById('content').classList.replace('m-fadeIn', 'm-fadeOut');
 			
 			document.getElementById('reservationsModal').classList.replace('m-fadeOut', 'm-fadeIn');
 			
@@ -33,8 +32,7 @@
 			document.body.style.overflow = 'auto';
 			document.body.classList.remove('noScroll');
 			document.getElementById('top').classList.replace('m-fadeOut', 'm-fadeIn');
-			document.getElementById('reservationsButton').classList.replace('m-fadeOut', 'm-fadeIn');
-			document.getElementById('about').classList.replace('m-fadeOut', 'm-fadeIn');
+			document.getElementById('content').classList.replace('m-fadeOut', 'm-fadeIn');
 			
 			 document.getElementById('reservationsModal').classList.replace('m-fadeIn', 'm-fadeOut');
 			
@@ -58,11 +56,17 @@
 </div>
 
 	
-<div id="reservationsButton">
-	<p style="margin-bottom:1rem;" class="buttons grow m-fadeIn" onclick="showModal();">Reservations</p>
-</div>	
+<div id="content" class="m-fadeIn">
+	<p style="margin-bottom:1rem;" class="buttons grow" onclick="showModal();">Reservations</p>
+		      
+	<p class="title">About</p>
+	<img src="images/portrait.png" style="display:block; max-width: min(65vw, 20rem); margin-top:0; margin-left:auto; margin-right:auto; margin-bottom:2rem;">
+	<p style="margin-top:0px; margin-bottom:3rem;" class="paragraph">When I lived in France, I got to learn about wine while sitting around my dining room table. It was an experience that marked me deeply, one I hope to share with you.</p>		  
+</div>
+
 	
-	  
+	
+	
 <div id="reservationsModal" class="modal m-fadeOut" loading="lazy">
               <div class="content" loading="lazy">
                   <div class="modalParagraph" style="padding-left:.5rem; padding-right:.5rem;">
@@ -108,15 +112,7 @@
                   
 		   <img class="close" src="images/close.svg" onclick="hideModal();">
 	</div>
-</div>
-		      
-<div id="about" class="m-fadeIn">		      
-	<p class="title">About</p>
-	<img src="images/portrait.png" style="display:block; max-width: min(65vw, 20rem); margin-top:0; margin-left:auto; margin-right:auto; margin-bottom:2rem;">
-	<p style="margin-top:0px; margin-bottom:3rem;" class="paragraph">When I lived in France, I got to learn about wine while sitting around my dining room table. It was an experience that marked me deeply, one I hope to share with you.</p>		  
-</div>
-
-                
+</div>                
                 
 </body>       
          
