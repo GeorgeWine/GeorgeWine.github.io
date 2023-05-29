@@ -140,6 +140,8 @@ textarea, input {
   
   width:70%;
   max-width:24.5rem;
+  
+  pointer-events:none;
 }
 
 #subheader {
@@ -150,6 +152,8 @@ textarea, input {
   font-weight: 300;
   text-align:center;
   letter-spacing: .4rem;
+  
+  pointer-events:none;
 }
 
 #chevron {
@@ -159,6 +163,8 @@ textarea, input {
 
   width:3rem;
   height:3rem;
+  
+  pointer-events:none;
 }
 
 .paragraph {
@@ -172,6 +178,8 @@ textarea, input {
   width:min(90%, 30rem);
   
   overflow:hidden;
+  
+  pointer-events:none;
 }
 
 .buttons {
