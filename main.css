@@ -245,7 +245,7 @@ textarea, input {
     transform: translate(-50%, -50%);
   
     width:min(90vw, 30rem);
-    height:90vh;
+    height:80vh;
 
     border-radius:15px 15px 0 15px;
     background: #E9DCC9;
@@ -269,7 +269,7 @@ textarea, input {
   padding:0;
   
   width:auto;
-  max-height:90vh;
+  max-height:80vh;
   
   font-size:1.1rem;
   font-weight:400;
@@ -288,7 +288,7 @@ textarea, input {
 .close {
   position:absolute;
   right:0px;
-  bottom:0px;
+  bottom:-30px;
   
   width:30px;
   height:30px;
