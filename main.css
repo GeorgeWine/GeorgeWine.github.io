@@ -25,7 +25,6 @@ body {
   font-family: Quicksand;
   color:#2e0308;
   
-  cursor:crosshair;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -113,7 +112,7 @@ textarea, input {
 @keyframes fadeInDown {
   0% {
     opacity: 0;
-    transform: translateY(-25vh);
+    transform: translateY(-15vh);
   }
   100% {
     opacity: 1;
@@ -123,7 +122,7 @@ textarea, input {
 @-webkit-keyframes fadeInDown {
   0% {
     opacity: 0;
-    transform:translateY(-25vh);
+    transform:translateY(-15vh);
   }
   100% {
     opacity: 1;
