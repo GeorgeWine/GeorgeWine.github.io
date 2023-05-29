@@ -109,27 +109,6 @@ textarea, input {
   }
 }
 
-@keyframes fadeInDown {
-  0% {
-    opacity: 0;
-    transform: translateY(-15vh);
-  }
-  100% {
-    opacity: 1;
-    transform:translateY(0);
-  }
-}
-@-webkit-keyframes fadeInDown {
-  0% {
-    opacity: 0;
-    transform:translateY(-15vh);
-  }
-  100% {
-    opacity: 1;
-    transform:translateY(0);
-  }
-}
-
 .m-fadeOut {
   visibility: hidden;
   opacity: 0;
@@ -138,7 +117,7 @@ textarea, input {
 .m-fadeIn {
   visibility: visible;
   opacity: 1;
-  transition: visibility ease-out 1000ms, opacity 1000ms;
+  transition: visibility ease-out 2000ms, opacity 2000ms;
   transition-delay:1000ms;
 }
 
@@ -215,7 +194,6 @@ textarea, input {
 /* ---------------------------------- Modal --------------------------------------------- */
 /* -------------------------------------------------------------------------------------- */
 
-/* Modal Containter including overlay and Modal */
 .modal {
   position: fixed;
   height: 100%;
