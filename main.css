@@ -246,8 +246,8 @@ textarea, input {
     position:relative;
     float:left;
     
-    left:10%;
-    top:50%;
+    left:50%;
+    top:10%;
     transform: translate(-50%, -10%);
   
     width:min(90vw, 30rem);
