@@ -173,6 +173,15 @@ textarea, input {
   letter-spacing: .4rem;
 }
 
+#chevron {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  width:3rem;
+  height:3rem;
+}
+
 .paragraph {
   margin: 0 auto;
   text-align:justify;
