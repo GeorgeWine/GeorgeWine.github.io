@@ -202,7 +202,7 @@ textarea, input {
 
   background-color: transparent;
 
-  font-size:2rem;
+  font-size:2.5rem;
   font-weight:400;
   font-variant:small-caps;
   letter-spacing:.1rem;
@@ -275,8 +275,8 @@ textarea, input {
     top:50%;
     transform: translate(-50%, -50%);
   
-    width:min(80vw, 30rem);
-    max-height:80vh;
+    width:min(70vw, 30rem);
+    max-height:70vh;
 
     border-radius:15px 15px 0 15px;
     background: #E9DCC9;
