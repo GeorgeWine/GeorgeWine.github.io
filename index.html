@@ -38,15 +38,9 @@
 			
 			return;
 		}
-		function pageScroll(){
-			await new Promise(r => setTimeout(r, 2000));
-			document.getElementById('content').scrollIntoView();
-			
-			return;
-		}
 	</script>
 	
-<body onload="pageScroll();">   
+<body>   
 	  
 <div class="m-fadeIn" style="height:100vh;" id="top">
 
@@ -58,7 +52,7 @@
 	</div>
         
 	<div style="padding-top:10vh;"></div>
-	<img src="images/chevron.svg" id="chevron" class="fadeIn2">           
+	<img src="images/chevron.svg" id="chevron" class="fadeIn2" onclick="document.getElementById('content').scrollIntoView();">           
 </div>
 
 	
