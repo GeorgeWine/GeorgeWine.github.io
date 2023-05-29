@@ -230,8 +230,8 @@ textarea, input {
     float:left;
     
     left:50%;
-    top:45%;
-    transform: translate(-50%, -45%);
+    top:50%;
+    transform: translate(-50%, -50%);
   
     width:min(80vw, 30rem);
     max-height:95vh;
@@ -278,7 +278,7 @@ textarea, input {
 .close {
   position:absolute;
   right:0;
-  bottom:0;
+  bottom:3px;
   
   width:30px;
   height:30px;
