@@ -211,7 +211,7 @@ textarea, input {
 
   overflow:hidden;
   
-  z-index:99;
+  z-index:98;
 }
 
 .overlay {
@@ -224,6 +224,8 @@ textarea, input {
 
     overflow:hidden;
     border-radius:0px;
+  
+    z-index:98;
 }
 
 .content {
@@ -247,6 +249,8 @@ textarea, input {
 
     border-radius:15px 15px 0 15px;
     background: #E9DCC9;
+  
+    z-index:99;
 }
 
 .title {
