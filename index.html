@@ -25,6 +25,8 @@
 			document.getElementById('reservationsButton').classList.replace('m-fadeIn', 'm-fadeOut');
 			document.getElementById('about').classList.replace('m-fadeIn', 'm-fadeOut');
 			
+			document.getElementById('reservationsModal').classList.replace('m-fadeOut', 'm-fadeIn');
+			
 			return;
 		}
 		function hideModal(){
@@ -33,6 +35,8 @@
 			document.getElementById('top').classList.replace('m-fadeOut', 'm-fadeIn');
 			document.getElementById('reservationsButton').classList.replace('m-fadeOut', 'm-fadeIn');
 			document.getElementById('about').classList.replace('m-fadeOut', 'm-fadeIn');
+			
+			 document.getElementById('reservationsModal').classList.replace('m-fadeIn', 'm-fadeOut');
 			
 			return;
 		}
@@ -54,9 +58,9 @@
 </div>
 
 	
-
-<p id="reservationsButton" style="margin-bottom:1rem;" class="buttons grow m-fadeIn" onclick="showModal(); document.getElementById('reservationsModal').classList.replace('m-fadeOut', 'm-fadeIn')">Reservations</p>
-	
+<div id="reservationsButton">
+	<p style="margin-bottom:1rem;" class="buttons grow m-fadeIn" onclick="showModal();">Reservations</p>
+</div>	
 	
 	  
 <div id="reservationsModal" class="modal m-fadeOut" loading="lazy">
@@ -97,12 +101,12 @@
             
                            <textarea id="details" name="Details" class="formQ" style="margin-bottom:1rem; resize:none;" rows="8" placeholder="Other Information"></textarea>
                             
-                           <input type="submit" value="Request" class="buttons submitButton grow" onclick="hideModal(); document.getElementById('reservationsModal').classList.replace('m-fadeIn', 'm-fadeOut');">
+                           <input type="submit" value="Request" class="buttons submitButton grow" onclick="hideModal();">
                       </form>
 
                    </div>
                   
-		   <img class="close" src="images/close.svg" onclick="hideModal(); document.getElementById('reservationsModal').classList.replace('m-fadeIn', 'm-fadeOut');">
+		   <img class="close" src="images/close.svg" onclick="hideModal();">
 	</div>
 </div>
 		      
