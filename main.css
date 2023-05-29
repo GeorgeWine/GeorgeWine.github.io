@@ -270,9 +270,10 @@ textarea, input {
     border-color:#2e0308;
     position:relative;
     float:left;
+    
     left:50%;
-    top:25%;
-    transform: translate(-50%, -25%);
+    top:50%;
+    transform: translate(-50%, -50%);
   
     width:min(80vw, 30rem);
     max-height:80vh;
