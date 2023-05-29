@@ -217,14 +217,6 @@ textarea, input {
   overflow:hidden;
   
   z-index:99;
-  
-  opacity:0;
-
-  -webkit-animation: fadeIn 1ms ease-in forwards;
-  animation: fadeIn 1ms ease-in forwards;
-
-  -webkit-animation-delay: 4025ms;
-  animation-delay: 4025ms;
 }
 
 .overlay {
