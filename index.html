@@ -55,7 +55,7 @@
          </div>   
                 
                 
-<!-- WINE LISTS MODAL --------------------------------------------------------------------------------------------------------------->
+<!-- WINE LISTS MODAL --------------------------------------------------------------------------------------------------------------
             <div style="margin-bottom:1.5rem;">
                 <label for="WineLists">
                    <p class="buttons grow" onclick="document.body.style.overflow = 'hidden'; document.body.classList.add('noScroll');">Wine Lists</p>
@@ -89,12 +89,12 @@
                 
               </div>
             </div>
-
+-->
 
          
 <!-- RESERVATIONS MODAL --------------------------------------------------------------------------------------------------------------->
         <div style="margin-bottom:3rem;">
-            <label for="Reservations">
+            <label for="Inquiries">
                    <p class="buttons grow" onclick="document.body.style.overflow = 'hidden';  document.body.classList.add('noScroll');">Reservations</p>
                </label>
             <input type="radio" name="Reservations" value="open" id="Reservations" class="modal-radio"/>
@@ -141,7 +141,7 @@
                       <option value="11+">eleven or more</option>
                     </select>
                              
-                          <select name="List" id="wineList" class="formQ" style="margin-bottom:.4rem;" required onchange="
+   <!--                       <select name="List" id="wineList" class="formQ" style="margin-bottom:.4rem;" required onchange="
                             if (this.value!=='N/A'){
                               this.form['numBottles'].disabled=false;
                               this.form['budget'].disabled=false;
@@ -186,7 +186,7 @@
                               <option value="75 - 100">$75 - $100</option>
                               </select>
                              </div>
-                            
+           -->                 
                              <textarea id="details" name="Details" class="formQ" style="margin-bottom:1rem; resize:none;" rows="8" placeholder="Other Information"></textarea>
                             
                              <input type="submit" value="Request" class="buttons submitButton grow" onclick="document.body.style.overflow = 'auto';">
