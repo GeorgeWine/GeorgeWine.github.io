@@ -84,8 +84,8 @@ textarea, input {
 .fadeIn2 {
   opacity:0;
 
-  -webkit-animation: fadeIn 2000ms ease-out forwards;
-  animation: fadeIn 2000ms ease-out forwards;
+  -webkit-animation: fadeIn 2000ms ease-in forwards;
+  animation: fadeIn 2000ms ease-in forwards;
 
   -webkit-animation-delay: 4025ms;
   animation-delay: 4025ms;
@@ -300,7 +300,7 @@ textarea, input {
   padding:0;
   
   width:auto;
-  max-height:80vh;
+  max-height:70vh;
   
   font-size:1.1rem;
   font-weight:400;
