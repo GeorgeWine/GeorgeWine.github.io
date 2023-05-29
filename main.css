@@ -219,13 +219,6 @@ textarea, input {
   z-index:99;
 }
 
-.modal-radio {
-    visibility: hidden;
-    opacity: 0;
-    margin-bottom:0;
-    position:absolute;
-}
-
 .overlay {
     position: fixed;
     width: 100%;
