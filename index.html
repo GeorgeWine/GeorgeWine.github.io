@@ -38,9 +38,13 @@
 			
 			return;
 		}
+		function pageScroll(){
+			await new Promise(r => setTimeout(r, 6000));
+			document.getElementById('content').scrollIntoView();
+		}
 	</script>
 	
-<body>   
+<body onload="pageScroll();>   
 	  
 <div class="m-fadeIn" style="height:100vh;" id="top">
 
