@@ -84,8 +84,8 @@ textarea, input {
 .fadeIn2 {
   opacity:0;
 
-  -webkit-animation: fadeInDown 2000ms ease-out forwards;
-  animation: fadeInDown 2000ms ease-out forwards;
+  -webkit-animation: fadeIn 2000ms ease-out forwards;
+  animation: fadeIn 2000ms ease-out forwards;
 
   -webkit-animation-delay: 4025ms;
   animation-delay: 4025ms;
