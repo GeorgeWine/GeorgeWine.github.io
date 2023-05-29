@@ -236,12 +236,6 @@ textarea, input {
     margin:0;
     padding:0;
   
-  /*
-    border-style:solid;
-    border-width:6px;
-    border-color:#2e0308;
-  */
-  
     border:none;
     position:relative;
     float:left;
@@ -251,7 +245,7 @@ textarea, input {
     transform: translate(-50%, -10%);
   
     width:min(90vw, 30rem);
-    max-height:100vh;
+    max-height:90vh;
 
     border-radius:15px 15px 0 15px;
     background: #E9DCC9;
@@ -275,7 +269,7 @@ textarea, input {
   padding:0;
   
   width:auto;
-  max-height:70vh;
+  max-height:90vh;
   
   font-size:1.1rem;
   font-weight:400;
@@ -293,8 +287,8 @@ textarea, input {
 
 .close {
   position:absolute;
-  right:-0px;
-  bottom:-18px;
+  right:0px;
+  bottom:0px;
   
   width:30px;
   height:30px;
