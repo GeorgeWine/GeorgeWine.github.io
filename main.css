@@ -139,6 +139,7 @@ textarea, input {
   visibility: visible;
   opacity: 1;
   transition: visibility ease-out 1000ms, opacity 1000ms;
+  transition-delay:1000ms;
 }
 
 .grow {
@@ -172,15 +173,6 @@ textarea, input {
   letter-spacing: .4rem;
 }
 
-#chevron {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-
-  width:3rem;
-  height:3rem;
-}
-
 .paragraph {
   margin: 0 auto;
   text-align:justify;
@@ -210,18 +202,6 @@ textarea, input {
   text-decoration: underline;
 }
 
-#endLogo { 
-  margin-left:auto; 
-  margin-right:auto;
-  margin-top:3rem;
-  margin-bottom:1rem;
-  
-  display:block;
-  
-  height:5rem; 
-  width:5rem;
-}
-
 /* -------------------------------------------------------------------------------------- */
 /* ---------------------------------- Modal --------------------------------------------- */
 /* -------------------------------------------------------------------------------------- */
@@ -235,9 +215,6 @@ textarea, input {
   left: 0%;
 
   overflow:hidden;
- 
-  transform:translate(100%, 0);
-  transition: transform .75s;
   
   z-index:99;
 }
@@ -265,9 +242,14 @@ textarea, input {
     overflow:visible;
     margin:0;
     padding:0;
+  
+  /*
     border-style:solid;
     border-width:6px;
     border-color:#2e0308;
+  */
+  
+    border:none;
     position:relative;
     float:left;
     
@@ -275,8 +257,8 @@ textarea, input {
     top:50%;
     transform: translate(-50%, -50%);
   
-    width:min(80vw, 30rem);
-    max-height:70vh;
+    width:min(90vw, 30rem);
+    max-height:90vh;
 
     border-radius:15px 15px 0 15px;
     background: #E9DCC9;
@@ -327,14 +309,6 @@ textarea, input {
   z-index:100;
   -webkit-transform: translate3d(0,0,1px);
   transform: translate3d(0,0,1px);
-}
-
-#Reservations:checked + .modal {
-    transform:translate(0,0);
-}
-
-#WineLists:checked + .modal {
-    transform:translate(0,0);
 }
 
 /* -------------------------------------------------------------------------------------- */
