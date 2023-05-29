@@ -207,7 +207,8 @@ textarea, input {
 /* -------------------------------------------------------------------------------------- */
 
 /* Modal Containter including overlay and Modal */
-.modal {  
+.modal {
+  opacity:0;
   position: fixed;
   height: 100%;
   width: 100%;
