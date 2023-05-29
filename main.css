@@ -253,12 +253,12 @@ textarea, input {
     position:relative;
     float:left;
     
-    left:50%;
+    left:10%;
     top:50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -10%);
   
     width:min(90vw, 30rem);
-    max-height:90vh;
+    max-height:100vh;
 
     border-radius:15px 15px 0 15px;
     background: #E9DCC9;
