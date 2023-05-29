@@ -34,13 +34,15 @@
 			document.getElementById('top').classList.replace('m-fadeOut', 'm-fadeIn');
 			document.getElementById('content').classList.replace('m-fadeOut', 'm-fadeIn');
 			
-			 document.getElementById('reservationsModal').classList.replace('m-fadeIn', 'm-fadeOut');
+			document.getElementById('reservationsModal').classList.replace('m-fadeIn', 'm-fadeOut');
 			
 			return;
 		}
 		function pageScroll(){
-			await new Promise(r => setTimeout(r, 6000));
+			await new Promise(r => setTimeout(r, 2000));
 			document.getElementById('content').scrollIntoView();
+			
+			return;
 		}
 	</script>
 	
