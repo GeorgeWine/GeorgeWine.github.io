@@ -215,7 +215,7 @@ textarea, input {
     top:50%;
     transform: translate(-50%, -50%);
   
-    width:min(95vw, 30rem);
+    width:min(95vw, 25rem);
     max-height:95vh;
 
     border-radius:15px 15px 0 15px;
