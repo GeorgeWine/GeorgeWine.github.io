@@ -123,7 +123,6 @@ textarea, input {
   transform: scale(1.1);
 }
 .color {
-  transition: all .3s ease-in-out;
   cursor:none;
 }
 .color:hover { 
