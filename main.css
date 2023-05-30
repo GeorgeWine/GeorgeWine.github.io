@@ -265,14 +265,16 @@ textarea, input {
 .submitButton {
   margin:0;
   padding:0;
-  display:inline-block;
+  display:block;
   width:fit-content;
   border:transparent;
 }
 
 .close {
-  margin:auto 0 auto 18px;
-  display:inline-block;
+  position:absolute;
+  right:-18px;
+  bottom:-18px;
+  
   width:30px;
   height:30px;
 
