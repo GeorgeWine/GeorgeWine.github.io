@@ -282,6 +282,8 @@ textarea, input {
 }
 
 .close {
+  pointer-events:none;
+  
   position:absolute;
   right:21px;
   bottom:5px;
