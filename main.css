@@ -271,7 +271,7 @@ textarea, input {
 }
 
 .close {
-  margin:auto 0 .4rem 0;
+  margin:auto;
   display:inline-block;
   justify:right;
   width:30px;
