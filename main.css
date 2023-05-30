@@ -258,7 +258,7 @@ textarea, input {
 }
 
 .close {
-  margin:auto auto .4rem auto;
+  margin:auto auto .4rem 0;
   
   width:30px;
   height:30px;
