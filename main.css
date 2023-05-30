@@ -111,7 +111,7 @@ textarea, input {
 .m-fadeIn {
   visibility: visible;
   opacity: 1;
-  transition: visibility ease-out 2000ms, opacity 2000ms;
+  transition: visibility ease-in 2000ms, opacity 2000ms;
   transition-delay:1000ms;
 }
 
