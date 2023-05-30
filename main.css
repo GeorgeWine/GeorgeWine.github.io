@@ -290,7 +290,7 @@ textarea, input {
   transform: translate3d(0,0,1px);
 }
 
-#Main svg:hover circle{
+svg:hover circle{
   fill:none;
 }
 
