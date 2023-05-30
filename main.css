@@ -125,8 +125,7 @@ textarea, input {
   transition: all .3s ease-in-out; 
 }
 .grow:hover { 
-  color: darkslategrey;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }  
 
 /* ------------------------------------------------------------------------------------ */
