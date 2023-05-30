@@ -53,6 +53,14 @@ textarea, input {
   box-sizing: border-box;
 }
 
+svg {
+  width: 30px;
+  height: 30px;
+}
+svg:hover circle {
+  fill: #2e030860;
+}
+
 /* --- Animations --- */
 
 .fadeIn0 {
@@ -288,10 +296,6 @@ textarea, input {
   z-index:100;
   -webkit-transform: translate3d(0,0,1px);
   transform: translate3d(0,0,1px);
-}
-
-svg:hover circle{
-  fill:none;
 }
 
 /* --- Reservation Form Elements --- */
