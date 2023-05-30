@@ -290,7 +290,7 @@ textarea, input {
   transform: translate3d(0,0,1px);
 }
 .close:hover{
-  fill:#2e030860;
+  fill:none;
 }
 
 /* --- Reservation Form Elements --- */
