@@ -122,7 +122,8 @@ textarea, input {
 }
 
 .grow {
-  transition: all .3s ease-in-out; 
+  transition: all .3s ease-in-out;
+  pointer-events:none;
 }
 .grow:hover { 
   transform: scale(1.1);
@@ -184,8 +185,6 @@ textarea, input {
   margin: 0 auto;
   width:fit-content;
   height:fit-content;
-  
-  cursor:none;
 
   background-color: transparent;
 
@@ -278,12 +277,9 @@ textarea, input {
   display:block;
   width:fit-content;
   border:transparent;
-  cursor:none;
 }
 
 .close {
-  pointer-events:none;
-  
   position:absolute;
   right:21px;
   bottom:5px;
