@@ -218,12 +218,7 @@ textarea, input {
     overflow:visible;
     margin:0;
     padding:0;
-  
-  /*
-    border-style:solid;
-    border-width:5px;
-    border-color:#2e0308;
-  */
+ 
     border:none;
   
     position:relative;
