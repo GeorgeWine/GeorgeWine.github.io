@@ -267,11 +267,13 @@ textarea, input {
   display:inline-block;
   width:fit-content;
   border:transparent;
+  justify:center;
 }
 
 .close {
   margin:auto 0 .4rem 0;
   display:inline-block;
+  justify:right;
   width:30px;
   height:30px;
 
