@@ -289,6 +289,9 @@ textarea, input {
   -webkit-transform: translate3d(0,0,1px);
   transform: translate3d(0,0,1px);
 }
+.close:hover{
+  fill:#81676A;
+}
 
 /* --- Reservation Form Elements --- */
 
