@@ -266,14 +266,15 @@ textarea, input {
   margin:0;
   padding:0;
   display:block;
+  justify:center;
   width:fit-content;
   border:transparent;
 }
 
 .close {
   position:absolute;
-  right:-18px;
-  bottom:-18px;
+  right:-60px;
+  bottom:-60px;
   
   width:30px;
   height:30px;
