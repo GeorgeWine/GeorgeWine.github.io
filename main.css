@@ -54,8 +54,17 @@ textarea, input {
 }
 
 svg {
-  width: 30px;
-  height: 30px;
+  cursor:none;
+  position:absolute;
+  right:10px;
+  bottom:5px;
+  
+  width:30px;
+  height:30px;
+
+  z-index:100;
+  -webkit-transform: translate3d(0,0,1px);
+  transform: translate3d(0,0,1px);
 }
 svg:hover circle {
   fill: #2e030860;
