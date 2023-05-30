@@ -211,18 +211,6 @@ textarea, input {
   z-index:99;
 }
 
-.overlay {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0);
-    top: 0;
-    left: 0;
-
-    overflow:hidden;
-    border-radius:0px;
-}
-
 .content {
     overflow:visible;
     margin:0;
@@ -237,7 +225,7 @@ textarea, input {
     top:50%;
     transform: translate(-50%, -50%);
   
-    width:min(80vw, 30rem);
+    width:min(95vw, 30rem);
     max-height:95vh;
 
     border-radius:15px 15px 0 15px;
@@ -319,7 +307,7 @@ select {
   display:block;
   margin: 0 auto .5rem auto;
   
-  width: 95%;
+  width: 99%;
   height: auto;
 
   border-radius:5px;
@@ -366,7 +354,7 @@ input::-webkit-inner-spin-button {
   margin: 0 auto .5rem auto;
   
   height:auto;
-  width:95%;
+  width:99%;
   
   display:flex;
   flex-direction:row;
