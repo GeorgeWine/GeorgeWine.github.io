@@ -263,17 +263,15 @@ textarea, input {
 }
 
 .submitButton {
-  margin:0;
+  margin:0 1em 0 0;
   display:inline-block;
   width:fit-content;
   border:transparent;
-  justify:center;
 }
 
 .close {
   margin:auto;
   display:inline-block;
-  justify:right;
   width:30px;
   height:30px;
 
