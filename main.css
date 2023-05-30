@@ -251,14 +251,14 @@ textarea, input {
 }
 
 .submitButton {
-  margin:0 0 0 auto;
+  margin:0 2rem;
   display:block;
   width:fit-content;
   border:transparent;
 }
 
 .close {
-  margin:auto auto .4rem 1rem;
+  margin:auto 0 .4rem 0;
   
   width:30px;
   height:30px;
