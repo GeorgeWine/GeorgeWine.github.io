@@ -263,7 +263,7 @@ textarea, input {
 }
 
 .submitButton {
-  margin:0 5vw 0 10vw;
+  margin:0;
   display:block;
   width:fit-content;
   border:transparent;
