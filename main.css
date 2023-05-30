@@ -123,13 +123,13 @@ svg:hover circle {
 .m-fadeOut {
   visibility: hidden;
   opacity: 0;
-  transition: visibility ease-out 1000ms, opacity 1000ms;
+  transition: visibility ease-out 750ms, opacity 750ms;
 }
 .m-fadeIn {
   visibility: visible;
   opacity: 1;
-  transition: visibility ease-in 2000ms, opacity 2000ms;
-  transition-delay:1000ms;
+  transition: visibility ease-in 1500ms, opacity 1500ms;
+  transition-delay:750ms;
 }
 
 .grow {
