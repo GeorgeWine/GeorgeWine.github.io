@@ -263,18 +263,17 @@ textarea, input {
 }
 
 .submitButton {
-  margin:0;
+  margin:auto;
   padding:0;
   display:block;
-  justify:center;
   width:fit-content;
   border:transparent;
 }
 
 .close {
   position:absolute;
-  right:-60px;
-  bottom:-60px;
+  right:60px;
+  bottom:60px;
   
   width:30px;
   height:30px;
