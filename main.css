@@ -282,7 +282,7 @@ textarea, input {
 
 .close {
   position:absolute;
-  right:0;
+  right:18px;
   bottom:5px;
   
   width:30px;
