@@ -121,7 +121,14 @@ textarea, input {
 }
 .grow:hover { 
   transform: scale(1.1);
-}  
+}
+.shrink {
+  transition: all .3s ease-in-out;
+  cursor:none;
+}
+.shrink:hover { 
+  transform: scale(.9);
+} 
 
 /* --- Elements --- */
 
