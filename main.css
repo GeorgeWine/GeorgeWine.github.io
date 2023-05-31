@@ -374,7 +374,7 @@ input::-webkit-inner-spin-button {
 
 .formInline {
   width:100%;
-  padding:.3rem 0 .3rem .3rem;
+  padding:.3rem 0 .3rem 1rem;
 
   background-color:transparent;
   background-repeat:no-repeat;
