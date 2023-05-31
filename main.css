@@ -247,8 +247,8 @@ svg:hover circle {
     float:left;
     
     left:50%;
-    top:30%;
-    transform: translate(-50%, -30%);
+    top:50%;
+    transform: translate(-50%, -50%);
   
     width:min(90vw, 25rem);
     max-height:95vh;
