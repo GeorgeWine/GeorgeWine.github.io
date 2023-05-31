@@ -75,8 +75,8 @@ svg:hover circle {
 .fadeIn0 {
   opacity:0;
 
-  -webkit-animation: fadeIn ease-in 3000ms forwards;
-  animation: fadeIn ease-in 3000ms forwards;
+  -webkit-animation: fadeIn ease-in 2000ms forwards;
+  animation: fadeIn ease-in 2000ms forwards;
 
   -webkit-animation-delay: 250ms;
   animation-delay: 250ms;
@@ -85,21 +85,21 @@ svg:hover circle {
 .fadeIn1 {
   opacity:0;
 
-  -webkit-animation: fadeIn ease-in 1500ms forwards;
-  animation: fadeIn ease-in 1500ms forwards;
+  -webkit-animation: fadeIn ease-in 2000ms forwards;
+  animation: fadeIn ease-in 200ms forwards;
 
-  -webkit-animation-delay: 2050ms;
-  animation-delay: 2050ms;
+  -webkit-animation-delay: 1500ms;
+  animation-delay: 1500ms;
 }
 
 .fadeIn2 {
   opacity:0;
 
-  -webkit-animation: fadeIn 3000ms ease-in forwards;
-  animation: fadeIn 3000ms ease-in forwards;
+  -webkit-animation: fadeIn 2000ms ease-in forwards;
+  animation: fadeIn 2000ms ease-in forwards;
 
-  -webkit-animation-delay: 4025ms;
-  animation-delay: 4025ms;
+  -webkit-animation-delay: 3000ms;
+  animation-delay: 3000ms;
 }
 
 @keyframes fadeIn {
