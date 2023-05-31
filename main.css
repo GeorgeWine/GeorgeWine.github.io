@@ -85,8 +85,8 @@ svg:hover circle {
 .fadeIn1 {
   opacity:0;
 
-  -webkit-animation: fadeIn ease-in 2000ms forwards;
-  animation: fadeIn ease-in 2000ms forwards;
+  -webkit-animation: fadeIn ease-in 1750ms forwards;
+  animation: fadeIn ease-in 1750ms forwards;
 
   -webkit-animation-delay: 1500ms;
   animation-delay: 1500ms;
@@ -123,12 +123,12 @@ svg:hover circle {
 .m-fadeOut {
   visibility: hidden;
   opacity: 0;
-  transition: visibility ease-out 750ms, opacity 750ms;
+  transition: visibility ease-out 750ms forwards, opacity 750ms;
 }
 .m-fadeIn {
   visibility: visible;
   opacity: 1;
-  transition: visibility ease-in 1500ms, opacity 1500ms;
+  transition: visibility ease-in 1500ms forwards, opacity 1500ms;
   transition-delay:750ms;
 }
 
