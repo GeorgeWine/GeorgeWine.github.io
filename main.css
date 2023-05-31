@@ -345,14 +345,14 @@ input[type="time"]{
 }
 
 input[type="time"]::-webkit-calendar-picker-indicator {
-  display:none;
+  display: none;
 }
 input[type="date"]::-webkit-calendar-picker-indicator {
   display: none;
 }
 
 input::-webkit-date-and-time-value{
-  text-align:left;
+  text-align:center;;
 }
 
 input::-webkit-outer-spin-button,
