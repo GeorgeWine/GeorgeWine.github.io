@@ -380,7 +380,7 @@ input::-webkit-inner-spin-button {
   background-repeat:no-repeat;
   
   font-variant:small-caps;
-  text-align:center;
+  text-align:left;
 
   border:.1rem solid;
   border-radius:5px;
