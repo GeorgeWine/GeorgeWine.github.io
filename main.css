@@ -334,11 +334,13 @@ select {
 }
 
 input[type="date"]{
+  text-align:left;
   font-size:1.2rem; 
   margin:0 0 1px 0;
   padding:.3rem 0 .3rem 1rem;
 }
 input[type="time"]{
+  text-align:center;
   font-size:1.2rem; 
   margin:0 0 1px 0;
   padding:.3rem 0 .3rem 1rem;
@@ -352,7 +354,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 input::-webkit-date-and-time-value{
-  text-align:left;
+  text-align:center;
 }
 
 input::-webkit-outer-spin-button,
