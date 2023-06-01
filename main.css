@@ -184,7 +184,7 @@ svg:hover circle {
 
 .paragraph {
   margin: 0 auto;
-  text-align:justify;
+  text-align:left;
   
   font-size:1.1rem;
   font-weight:400;
